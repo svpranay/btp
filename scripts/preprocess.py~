@@ -1,0 +1,91 @@
+import string,os,sys
+
+filename1 = 'waves.txt'
+filename2 = 'ParseTuples.txt'
+
+filein1 = open(filename1,'r')
+speed_descriptors = ['increasing','decreasing','easing','freshening','rising']
+
+dump = filein1.readline()
+
+
+def joinAll(loc):
+    l = []
+    filein2 = open(filename2,'r')    
+    dump = filein2.readline()
+    while 1 :
+        line = filein2.readline()
+        if not line :
+            break
+        words = string.split(line,',')
+        if loc == words[0][1:-1] :
+            l.append(line)
+    return l
+
+def amForecast():
+    # am forecast
+    if text_words[14] in speed_descriptors : 
+        # speed change indicator
+        text_time = text_words[4]
+        data_words = string.split(data[data_index],',')
+        data_time = string.split(data_words[3],'/')[1]
+        if text_time == data_time : 
+            # match 
+            print data[data_index] + ",Reported"                
+            
+            data_index = data_index + 1
+
+def pmForecast():
+    # am forecast
+    if text_words[14] in speed_descriptors : 
+        # speed change indicator
+        text_time = text_words[4]
+        data_words = string.split(data[data_index],',')
+        data_time = string.split(data_words[3],'/')[1]
+        if text_time == data_time : 
+            # match 
+            print data[data_index] + ",Reported"                
+            
+            data_index = data_index + 1
+
+def operate(data, text):
+    data_index = 0
+
+    for item in text : 
+        text_words = string.split(item, ',')
+        #print words[14],
+        section = text_words[1]
+        begin_time = text_words[4] # 15 or 6
+        if begin_time == '6' : 
+        elif begin_time == '15' : 
+
+        else : 
+            print "Missed a data point : Unexpected value "
+            
+
+previous_line = filein1.readline()
+prev = string.split(previous_line,' ')
+l = []
+while 1 : 
+    
+    current_line = filein1.readline()
+    if not current_line : 
+        break
+    curr = string.split(current_line,' ')
+    if curr[0] != prev[0] :
+        
+        #print prev
+        l.append(prev)
+        # search for it now and print , next will be next
+        print
+        loc = prev[0][1:prev[0].find('tab')] + 'prn'
+        l1 = joinAll(loc) # my custom function
+        if l1 :
+            operate(l,l1)
+        l=[]
+        prev = curr 
+    #print prev
+    l.append(prev)
+    prev = curr
+
+        

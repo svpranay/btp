@@ -1,0 +1,59 @@
+
+Input :  1  Level 
+Level :  0
+It nearly constant from 0 falling faster from the year 1 until the year 2
+It nearly constant from 2 then,  raising faster from the year 3 then,  raising slower from the year 4 then,  raising slower from the year 5 until the year 6
+It nearly constant from 6 falling faster from the year 7 falling faster from the year 8 falling slower from the year 9 until the year 10
+It attains maximum at 6 with value of 34.0
+It nearly constant from 10 until the year 11
+It nearly constant from 11 falling faster from the year 12 falling faster from the year 13 falling faster from the year 14 until the year 15
+It nearly constant from 15 then,  raising slower from the year 16 until the year 17
+It nearly constant from 17 falling faster from the year 18 falling slower from the year 19 until the year 20
+It nearly constant from 20 then,  raising faster from the year 21 then,  raising slower from the year 22 until the year 22
+It attains minimum at 20 with value of 5.0
+
+Level :  1
+It nearly constant from 0 falling faster from the year 1 until the year 2
+It nearly constant from 2 then,  raising faster from the year 3 then,  raising slower from the year 4 then,  raising slower from the year 5 until the year 6
+It nearly constant from 6 falling faster from the year 7 until the year 10
+It attains maximum at 6 with value of 34.0
+It nearly constant from 10 until the year 11
+It nearly constant from 11 falling faster from the year 12 falling faster from the year 13 falling faster from the year 14 until the year 15
+It nearly constant from 15 then,  raising slower from the year 16 until the year 17
+It nearly constant from 17 falling faster from the year 18 falling slower from the year 19 until the year 20
+It nearly constant from 20 then,  raising faster from the year 21 then,  raising slower from the year 22 until the year 22
+It attains minimum at 20 with value of 5.0
+
+Level :  2
+It nearly constant from 0 falling faster from the year 1 until the year 2
+It nearly constant from 2 then,  raising faster from the year 3 then,  raising slower from the year 4 until the year 5
+It nearly constant from 5 falling faster from the year 13 falling faster from the year 14 until the year 15
+It attains maximum at 6 with value of 34.0
+It nearly constant from 15 then,  raising slower from the year 16 until the year 17
+It nearly constant from 17 falling faster from the year 18 falling slower from the year 19 until the year 20
+It nearly constant from 20 then,  raising faster from the year 21 then,  raising slower from the year 22 until the year 22
+It attains minimum at 20 with value of 5.0
+
+Level :  3
+It nearly constant from 0 until the year 2
+It nearly constant from 2 until the year 3
+It nearly constant from 3 falling faster from the year 14 until the year 15
+It attains maximum at 6 with value of 34.0
+It nearly constant from 15 then,  raising slower from the year 16 until the year 17
+It nearly constant from 17 falling faster from the year 18 falling slower from the year 19 until the year 20
+It nearly constant from 20 then,  raising faster from the year 21 then,  raising slower from the year 22 until the year 22
+It attains minimum at 20 with value of 5.0
+
+Level :  4
+It nearly constant from 0 until the year 15
+It attains maximum at 6 with value of 34.0
+It nearly constant from 15 until the year 18
+It nearly constant from 18 falling slower from the year 19 until the year 20
+It nearly constant from 20 then,  raising faster from the year 21 then,  raising slower from the year 22 until the year 22
+It attains minimum at 20 with value of 5.0
+
+Level :  5
+It nearly constant from 0 falling faster from the year 22 until the year 22
+It attains maximum at 6 with value of 34.0
+
+Input :  2  Level 

@@ -1,0 +1,3 @@
+# Operate on fields.txt and get those points where wind10 has been mentioned
+
+filename = 'fields.txt'
