@@ -122,7 +122,7 @@ def insertMinmax(points, real_values):
     #l[1][0] - max value
     #l[1][1] - max value loc 
     iprime = -1
-    for i in range(len(points)):
+    for i in range(len(points)-1):
         #i = i_ + 1
         if points[i][0] <= l[1][1] and points[i+1][0] > l[1][1] : 
             points[i].append("minmax")
